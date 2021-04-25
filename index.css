@@ -1,0 +1,59 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.box-login{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+}
+.box-login .logotipo-preta{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.logotipo-preta{
+  color: #000;
+  font-size: 30px;
+  line-height: 100%;
+}
+.logotipo-preta strong{
+  color: #132356;
+  display: block;
+}
+.login-form{
+  max-width: 400px;
+  width: 100%;
+}
+.login-form .btn-login{
+  display: inline-block;
+  width: 100%;
+  padding: 18px 0px;
+  background-color: #132356;
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  border: 0px;
+  line-height: 140%;
+  margin-top: 20px;
+  transition: 0.2s;
+  border-radius: 16px;
+}
+.login-form .btn-login:hover{
+  transition: 0.2s;
+  opacity: 0.8;
+}
+.login-form input{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 140%;
+  color: #000000;
+  border: 0px;
+  padding-bottom: 14px;
+  padding-top: 14px;
+  margin-bottom: 40px;
+  border-radius: 0px;
+  border-bottom: 1px solid rgba(0,0,0,.3);
+}
