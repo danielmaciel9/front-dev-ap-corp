@@ -1,6 +1,15 @@
 body{
   font-family: 'Montserrat', sans-serif;
 }
+h2{
+  margin-top: 48px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 140%;
+  color: #000000;
+  margin-bottom: 19px;
+}
 .box-login{
   display: flex;
   align-items: center;
@@ -56,4 +65,132 @@ body{
   margin-bottom: 40px;
   border-radius: 0px;
   border-bottom: 1px solid rgba(0,0,0,.3);
+}
+
+
+
+.home-logotipo{
+  padding-top: 60px;
+}
+.box-treino-de-hoje{
+  background-color: #132356;
+  padding: 40px 42px;
+  border-radius: 20px;
+}
+.secao-treino-inicio a{
+  text-decoration: none;
+  cursor: pointer;
+}
+.box-treino-de-hoje .row{
+  display: flex;
+  align-items: center;
+}
+.box-treino-de-hoje .date-box-treino{
+  background-color: #ebbe31;
+  color: #fff;
+  text-align: center;
+  padding: 12px 0px;
+  border-radius: 14px;
+}
+.box-treino-de-hoje .valor-dia{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 140%;
+}
+.box-treino-de-hoje .valor-mes{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+}
+.box-treino-de-hoje .texto-infos-box-treino h4{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: #FFFFFF;
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+.box-treino-de-hoje .texto-infos-box-treino h5{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+  margin: 0px;
+}
+
+
+.prox-treinos-lista{
+  padding-bottom: 60px;
+}
+.prox-treinos-lista h3{
+  margin-top: 25px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 140%;
+  color: #000000;
+  margin-bottom: 24px;
+}
+.prox-treinos-lista ul{
+  list-style: none;
+  padding-left: 0px;
+}
+.prox-treinos-lista a{
+  cursor: pointer;
+  transition: 0.2s;
+  text-decoration: none;
+}
+.prox-treinos-lista a:hover li{
+  transition: 0.2s;
+  box-shadow: 0px 4px 15px rgb(0 0 0 / 16%);
+}
+.prox-treinos-lista li{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  padding: 15px;
+  border-radius: 15px;
+  transition: 0.2s;
+}
+.prox-treinos-lista .date-box-treino{
+  background-color: #ebbe31;
+  color: #fff;
+  text-align: center;
+  padding: 12px 0px;
+  border-radius: 14px;
+  width: 72px;
+}
+.prox-treinos-lista .valor-dia{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 140%;
+}
+.prox-treinos-lista .valor-mes{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+}
+.prox-treinos-lista .texto-infos-box-treino h4{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: #000;
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+.prox-treinos-lista .texto-infos-box-treino h5{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: #000;
+  margin: 0px;
 }
