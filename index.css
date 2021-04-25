@@ -334,3 +334,101 @@ header nav{
   max-width: 600px;
   margin: auto;
 }
+
+
+
+.infos-perfil-aluno{
+  margin-top: 56px;
+}
+.infos-perfil-aluno h3{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #342425;
+  margin-top: 0px;
+  margin-bottom: 7px;
+}
+.infos-perfil-aluno{
+  text-align: center;
+}
+.infos-perfil-aluno .btn-editar-perfil{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #342425;
+  display: block;
+  text-decoration: none;
+  margin-top: 30px;
+}
+.infos-perfil-aluno .btn-editar-perfil:hover{
+  text-decoration: underline;
+}
+.infos-perfil-aluno .btn-logout{
+  display: inline-block;
+  width: 100%;
+  padding: 18px 0px;
+  background-color: #ebbe31;
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  border: 0px;
+  line-height: 140%;
+  transition: 0.2s;
+  border-radius: 16px;
+  text-decoration: none;
+  max-width: 300px;
+  margin-top: 30px;
+}
+.infos-perfil-aluno .btn-logout:hover{
+  transition: 0.2s;
+  opacity: 0.8;
+}
+.infos-perfil-aluno hr{
+  margin: 40px 0px;
+}
+
+
+
+.box-edicao-informacoes{
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+  margin-top: 56px;
+}
+.box-edicao-informacoes .btn-update{
+  display: inline-block;
+  width: 100%;
+  padding: 18px 0px;
+  background-color: #132356;
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  border: 0px;
+  line-height: 140%;
+  margin-top: 20px;
+  transition: 0.2s;
+  border-radius: 16px;
+}
+.box-edicao-informacoes .btn-update:hover{
+  transition: 0.2s;
+  opacity: 0.8;
+}
+.box-edicao-informacoes input{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 140%;
+  color: #000000;
+  border: 0px;
+  padding-bottom: 14px;
+  padding-top: 14px;
+  margin-bottom: 40px;
+  border-radius: 0px;
+  border-bottom: 1px solid rgba(0,0,0,.3);
+}
