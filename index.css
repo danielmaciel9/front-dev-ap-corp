@@ -33,6 +33,7 @@ h2{
 .login-form{
   max-width: 400px;
   width: 100%;
+  margin: auto;
 }
 .login-form .btn-login{
   display: inline-block;
